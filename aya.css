@@ -1,0 +1,630 @@
+body{
+	font-family: Verdana;
+	margin: 0;
+	padding: 0;
+	color: black;
+	background-color:#fff7e6;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#planpage  li a {
+    color: black;
+
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+h2{
+	text-align: center;
+	font-size: 20px;
+}
+body h3{
+	text-align: center;
+}
+/*le texte du body de la page index*/
+#petiteintro p {
+    font-size: 18px; /* Taille de la police */
+    line-height: 1.6; /* Hauteur de ligne */
+    color: #333; /* Couleur du texte */
+    padding: 20px; /* Ajout de rembourrage à l'intérieur de la boîte */
+    border: 1px solid #ccc; /* Ajout d'une bordure de 1 pixel solide grise */
+    border-radius: 10px; /* Ajout de coins arrondis à la boîte */
+    background-color:#fff7e6; /* Couleur de fond de la boîte */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre portée */
+}
+#petiteintro p {
+    position: relative; /* Permet de positionner le span de manière absolue par rapport au paragraphe */
+}
+
+
+
+a{
+	font-family: Aharoni;
+	text-decoration: none;
+	font-size: 30px;
+	color:whitesmoke;
+
+}
+
+
+/*******************NAVIGATIONBAR******************/
+nav{
+	overflow: hidden;
+	background-color:black;
+	position: fixed;
+	width: 100% ;
+	opacity: 0.8;	
+	top:0;
+	color: black;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+nav ul li {
+    margin: 0 10px;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+
+nav ul li a:hover {
+    color: ; /* Changement de couleur au survol */
+}
+
+
+header li {
+	float: right;
+	font-size: 30px;
+	text-decoration:none ;
+	list-style: none;
+}
+header li a {
+	font family:verdana;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+/********************mesimages***********************************/
+/**************imageacceuil************/
+ #imageacceuil{
+    
+    background: url(media/imageacceuil.png) no-repeat 50% 50%;
+    background-size: 100%; /* Redimensionner l'image à 90% de la taille d'origine */
+    height: 800px;
+
+}
+/*les images de la page d'acceuil*/
+/* Style pour les images */
+#mesimages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; /* Ajoute un peu d'espace autour des images */
+}
+
+.images {
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.images img {
+    width: 100%; /* Assure que toutes les images ont la même largeur */
+    height: 600px;
+    border-radius: 10px; /* Ajoute des coins arrondis aux images */
+}
+
+/*mon logo 	AZ luxury*/
+
+.logo {
+  text-align: center;
+ margin-top: 100px;
+}
+
+.logo img {
+  width: 250px; /* Taille de votre logo */
+  height: auto;
+  border-radius: 50%; /* Ajoute des coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre portée */
+  transition: transform 0.3s ease; /* Ajoute une transition fluide au survol */
+
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Agrandit légèrement le logo au survol */
+}
+/******************* Style pour le footer ******************/
+
+
+/* Style pour les icônes */
+#icones {
+    margin-bottom: 20px;
+    margin-top: 10px; /* Ajoute de l'espace en haut du div icones */
+
+}
+
+#icones a {
+    margin-right:20px;
+    color: #737373;
+    font-size: 20px;
+}
+footer {
+  text-align: center;
+  padding: 50px; /* Ajoute un peu d'espace autour du contenu du pied de page */
+}
+
+footer #contact a {
+	color: #737373; /* Couleur du texte pour le lien de contact (rouge dans cet exemple) */
+}
+
+#copyright span {
+	color:#737373 ;
+}
+
+/****Style pour le plan*****/
+/* Style pour le conteneur des liens du plan */
+#planpage {
+    text-align: center; /* Centre les éléments horizontalement */
+    margin-top: 400px; /* Ajoute une marge en haut pour l'espace */
+    margin-bottom: 50px; /* Ajoute une marge en bas pour l'espace */
+}
+
+#planpage ul {
+    list-style-type: none; /* Supprimer les puces des listes */
+    padding: 0; /* Supprimer les espaces intérieurs de la liste */
+}
+
+#planpage ul li {
+    display: inline-block; /* Afficher les éléments en ligne */
+    margin: 0 10px; /* Marge autour des éléments */
+}
+
+#planpage ul li a {
+    text-decoration: none; /* Supprimer le soulignement des liens */
+    color: white; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+    font-weight: bold; /* Poids de la police */
+    padding: 10px 20px; /* Espacement à l'intérieur des liens */
+    border: 2px solid #ac7339; /* Bordure */
+    border-radius: 20px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s; /* Transition fluide */
+}
+
+#planpage ul li a:hover {
+    background-color: #ac7339; /* Couleur de fond au survol */
+    color: white; /* Couleur du texte au survol */
+}
+/*image ddu pla*************/
+.pln-container {
+    display: flex; /* Utiliser Flexbox pour aligner les éléments */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center; /* Centrer les éléments verticalement */
+    padding: 30px; /* Ajoute un peu d'espace autour des images */
+}
+
+.pln {
+    flex: 1; /* Faire en sorte que chaque élément prenne la même largeur */
+    text-align: center; /* Centrer le contenu horizontalement */
+    margin-right: 10px; /* Ajouter une marge à droite pour l'espace entre les éléments */
+    position: relative; /* Position relative pour positionner le contenu textuel */
+}
+
+.pln img {
+    position: absolute; /* Position absolue pour l'image en arrière-plan */
+    top: 50%; /* Déplacer l'image à 50% de la hauteur du conteneur */
+    left: 50%; /* Déplacer l'image à 50% de la largeur du conteneur */
+    transform: translate(-50%, -50%); /* Centrer l'image */
+    width: 100%; /* Assure que l'image couvre tout le conteneur */
+    height: auto; /* Permettre à l'image de conserver son aspect ratio */
+    z-index: -1; /* Placer l'image en arrière-plan */
+    border-radius: 10px; /* Ajoute des coins arrondis aux images */
+}
+
+.pln-content {
+    padding: 20px; /* Ajoute de l'espace autour du contenu textuel */
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond semi-transparente pour le contenu textuel */
+    border-radius: 10px; /* Ajoute des coins arrondis au conteneur du contenu textuel */
+}
+footer {
+        background-color: #ffe6cc;
+}
+
+/*****icone du plan******/
+.plan-link {
+    text-decoration: none;
+    color: #737373; /* couleur du texte */
+    font-size: 20px; /* taille de la police */
+    padding-right: 40px; /* espace après le text***/
+    float: right;
+}
+
+.fa-arrow-up {
+  margin-left: 5px; /* espace à gauche de l'icône*/
+}
+
+/**********la page de presenattion A propos*******/
+/********Monn logo*********/
+
+.logo img {
+    width: 200px; /* Taille de votre logo */
+    height: auto;
+    margin-top: 1px;
+}
+
+
+.propos h2{
+    font-family: Arial, sans-serif; /* Utilisation d'une police de caractères sans empattement pour un aspect professionnel */
+    color: #ac7339 ; /* Couleur du texte */
+    margin: 20px;
+    padding: 0;
+    font-size: 30px;
+}
+
+.propos p {
+    font-size: 20px;
+    font-family: "ADLaM Display", sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 20px;
+    background-color:#fff7e6;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+/***************logo Search**********************/
+.fa-search {
+    color: white;
+}
+/*plus plus */
+body p {
+    border-top: none; /* Supprime la bordure en haut */
+    border-bottom: none; /* Supprime la bordure en bas */
+}
+
+#mesimages {
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: flex-start; /* Aligne les éléments en haut */
+    padding: 30px;
+    margin-top: 50px; /* Ajoute un espacement au-dessus des images */
+}
+/******la case lire plus*********/
+.lire-plus {
+    position: relative;
+    background-color: #ffb366;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin: 600px;
+}
+
+.lire-plus a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/**********pagecontact*********/
+/* Style des éléments de contact */
+#personne, #adresse, #numero, #email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Style des icônes */
+.icon {
+    margin-right: 10px;
+    color: #737373; /* Couleur des icônes */
+}
+
+/* Style des lignes de séparation */
+hr {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Style de la section petites icones */
+#petitesicones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribue les éléments de manière égale */
+}
+
+/* Style des icônes dans la section petites icones */
+#petitesicones .icon {
+    color: #737373; /* Couleur des icônes */
+}
+
+/* Style des éléments dans la section petites icones */
+#petitesicones > div {
+    flex-basis: calc(50% - 50px); /* Chaque élément occupe 50% de la largeur, moins la marge */
+    margin-right: none; /* Supprime la marge entre les éléments */
+    margin-bottom: 10px; /* Ajout de marge en bas de chaque élément */
+}
+
+
+#macarte {
+    margin: 0 auto; /* Centrer la carte horizontalement */
+    max-width: 600px; /* Définir une largeur maximale pour la carte */
+}
+
+/* CSS pour le lien "CONTACT" */
+#contact h1{
+    text-align: center; /* Centrer le texte */
+    color:#cc9900;
+}
+
+#demande h2{
+	float: left;
+	color: grey;
+}
+
+
+/*******************style du formulaire**************************/
+
+.form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: none;
+        }
+        .form-group input, .form-group textarea {
+            width: calc(50% - 5px);
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .form-group textarea {
+            width: calc(100% - 10px);
+            resize: vertical;
+            height: 100px;
+        }
+        .form-group button {
+            background-color: #black;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        .form-group button:hover {
+            background-color: #737373;;
+        }
+        .form-column {
+            display: inline-block;
+            width: 50%;
+            box-sizing: border-box;
+            vertical-align: top;
+            padding-right: 10px;
+        }
+        
+
+/***********services************/
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CSS pour les services */
+.service {
+    margin-bottom: 30px; /* Ajouter de l'espace entre chaque service */
+}
+
+.service h2 {
+    font-size: 24px; /* Taille de la police pour les titres */
+    color: #804000; /* Couleur du texte pour les titres */
+    margin-bottom: 10px; /* Ajouter un peu d'espace en bas des titres */
+    text-align: center;
+}
+
+.service p {
+    font-size: 19px; /* Taille de la police pour les paragraphes */
+    color: black; /* Couleur du texte pour les paragraphes */
+    line-height: 1.6; /* Espacement entre les lignes des paragraphes */
+    margin-bottom: 30px; /* Ajouter de l'espace en bas des paragraphes */
+    text-align: center;
+}
+
+/* Style pour la section messervices */
+
+/* CSS pour le texte de la page À PROPOS */
+
+
+/****************FAQ**************/
+
+/* Style pour les titres des questions */
+/* Styliser les titres h2 */
+.question h2 {
+    color: #ac7339; /* Couleur du texte */
+    font-size: 25px; /* Taille de la police */
+    font-weight: bold; /* Poids de la police */
+    margin-bottom: 10px; /* Marge en bas */
+    margin: -10px;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+/* Styliser les paragraphes */
+.question p {
+    color: black; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+    line-height: 1.5; /* Hauteur de ligne */
+    font-family: sans-serif;
+    max-width: 900px;
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+}
+/* Effet unique lors du survol */
+.question h2::before {
+    content: ""; /* Ajout d'un contenu vide pour le pseudo-élément */
+    position: absolute; /* Position absolue par rapport à son parent */
+    top: 0; /* Aligner en haut */
+    left: 0; /* Aligner à gauche */
+    width: 100%; /* Pleine largeur */
+    height: 100%; /* Pleine hauteur */
+    background-color: rgba(172, 115, 57, 0.2); /* Couleur de fond avec transparence */
+    z-index: -1; /* Placer derrière le texte */
+    transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+/* Effet unique lors du survol */
+.question h2:hover::before {
+    background-color: #d2a679; /* Changement de couleur de fond au survol */
+}
+/* Ajouter un espacement entre chaque question */
+
+
+
+/******imagehome******/
+.home {
+    display: flex; /* Utilise flexbox pour aligner les éléments à l'intérieur */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Assure que la section home prend la hauteur de l'écran */
+}
+
+.home img {
+    max-width: 100%; /* Empêche l'image de dépasser la largeur de son conteneur */
+    max-height: 100%; /* Empêche l'image de dépasser la hauteur de son conteneur */
+    border-radius: 20px; /* Ajoute des coins arrondis à l'image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce à l'image */
+}
+
+
+
+/********************les parteniares***************************/
+
+.partenaires img, .par1 img, .par2 img, .par3 img, .par4 img, .par5 img {
+    width: 600px; /* Largeur fixe pour toutes les images */
+    height: 150px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Remplir le conteneur en conservant les proportions */
+    margin: 30px; /* Espacement entre les images */
+    height: auto;
+    text-align: center;
+
+}
+
+
+
+/****************Text des partenaires ***********************/
+.partenaires p {
+    font-family: Arial, sans-serif; /* Utilisation d'une police de caractères sans-serif professionnelle */
+    font-size: 16px; /* Taille de police raisonnable */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+    color: #333; /* Couleur de texte sombre */
+    text-align: justify; /* Justification du texte */
+}
+
+.partenaires p::first-letter {
+    font-size: 150%; /* Augmentation de la taille de la première lettre pour une meilleure mise en évidence */
+}
+
+.partenaires {
+    width: 80%; /* Largeur du conteneur pour le texte */
+    margin: 0 auto; /* Centrer le conteneur horizontalement */
+}
+
+.partenaires p:last-child {
+    margin-bottom: 0; /* Suppression de la marge en bas du paragraphe pour éviter un espace vide */
+    font-size: 20px;
+    font-family: Baloo Da 2;
+}
+
+img {
+    width: 100%; /* Ajuste la largeur de l'image à 100% de la largeur de son conteneur */
+    height: auto; /* Garde le ratio de l'image */
+}
+/***************LES IAMGES DE presentation ********************/
+/* CSS pour le positionnement et la taille des images */
+/* CSS pour le positionnement et la taille des images */
+.pres1 {
+    float: left; /* Pour placer l'image à gauche */
+    margin-right: 40px; /* Espacement entre les images */
+    width: 25%; /* Largeur de chaque image */
+    max-width: 1600px; /* Largeur maximale des images */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+
+}
+
+.pres2 {
+    float: right; /* Pour placer l'image à droite */
+    margin-left: 40px; /* Espacement entre les images */
+    width: 25%; /* Largeur de chaque image */
+    max-width: 900px; /* Largeur maximale des images */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+/* CSS pour la section de présentation */
+.propos {
+    overflow: hidden; /* Pour éviter que le texte ne soit caché par les images flottantes */
+
+}
+
+
+
+
+
+/****************nos services images conception********************/
+/* CSS pour les services */
+.service {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond de l'overlay */
+    color: white;
+    font-size: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.1s;
+    padding: 40px;
+    text-align: center;
+}
+
+.service:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
